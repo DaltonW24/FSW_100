@@ -7,6 +7,19 @@ h3{
 img{
     position: relative;
 }
-background{
-    color: black;
+p{
+    font-size: larger;
+    font-style: initial;
+}
+ol{
+    font-size: larger;
+    font-style: initial;
+}
+a{
+    font-size: larger;
+    font-style: initial;
+}
+h3{
+    font-size: larger;
+    font-style: initial;
 }
