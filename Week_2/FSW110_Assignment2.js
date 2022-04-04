@@ -9,13 +9,17 @@ document.body.appendChild(newP1);
 
 
 var newList = document.createElement('ol');
-document.body.append()
+document.body.appendChild(newList)
+newList.setAttribute("id", "list1")
+
 var newListItem1 = document.createElement('li');
 newListItem1.textContent = "cake";
-document.body.appendChild('ol')
-var newListItem2 = document.createElement("li");
+document.querySelector('#list1').appendChild(newListItem1)
+
+var newListItem2 = document.createElement('li');
 newListItem2.textContent = "Spaghetti";
-document.body.appendChild("ol")
+document.querySelector('#list1').appendChild(newListItem2)
+
 var newListItem3 = document.createElement("li");
 newListItem3.textContent = "Meatballs";
-document.body.appendChild("ol")
+document.querySelector('#list1').appendChild(newListItem3)
