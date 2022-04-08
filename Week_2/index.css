@@ -1,25 +1,36 @@
 h1{
-    color: black;
+    font-family: Georgia;
+    color: blue;
+    text-align: center;
 }
 h3{
-    color: black;
-}
-img{
-    position: relative;
+    font-family: georgia;
+    color: green;
+    text-align: center;
 }
 p{
-    font-size: larger;
-    font-style: initial;
+    line-height: 20px;
+    text-align: center;
+} 
+img{
+    float: left;
+    padding: 10px;
+
 }
-ol{
-    font-size: larger;
-    font-style: initial;
+#boldWords{
+    color: lightcoral;
 }
-a{
-    font-size: larger;
-    font-style: initial;
+#linkForWebsite{
+    text-decoration: none;
 }
-h3{
-    font-size: larger;
-    font-style: initial;
+
+#linkForWebsite :hover{
+text-decoration: underline;
+}
+
+#beforeLink{
+    text-transform: uppercase;
+}
+#theOrderedList{
+    list-style: disc;
 }
