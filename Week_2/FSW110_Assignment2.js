@@ -12,7 +12,7 @@ var newList = document.createElement('ol');
 document.body.appendChild(newList)
 newList.setAttribute("id", "list1")
 
-var newListItem1 = document.createElement('li');
+var newListItem1 = document.createElement('li'); 
 newListItem1.textContent = "cake";
 document.querySelector('#list1').appendChild(newListItem1)
 

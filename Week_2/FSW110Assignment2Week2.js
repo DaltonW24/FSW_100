@@ -19,7 +19,7 @@ var aTag3 = document.createElement('a');
 aTag3.setAttribute('href', '#')
 aTag3.textContent = 'About  '  
 document.querySelector('#navBar1').appendChild(aTag3);
-
+ 
 
 var newHeader = document.createElement("h1");
 newHeader.textContent = "My Webpage";
