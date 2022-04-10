@@ -1,4 +1,4 @@
-h1{
+.header{
     font-family: Georgia;
     color: blue;
     text-align: center;
@@ -6,12 +6,19 @@ h1{
 h3{
     font-family: georgia;
     color: green;
+}
+.child p{
+    color: red;
+}
+
+#greenHouseEffect{
     text-align: center;
 }
-p{
+.paragraph{
     line-height: 20px;
-    text-align: center;
-} 
+    
+}
+
 img{
     float: left;
     padding: 10px;
@@ -24,9 +31,9 @@ img{
     text-decoration: none;
 }
 
-#linkForWebsite :hover{
+#linkForWebsite:hover{
 text-decoration: underline;
-}
+} 
 
 #beforeLink{ 
     text-transform: uppercase;
@@ -34,3 +41,8 @@ text-decoration: underline;
 #theOrderedList{
     list-style: disc;
 }
+.finalP p{
+    color: darkblue;
+}
+
+
