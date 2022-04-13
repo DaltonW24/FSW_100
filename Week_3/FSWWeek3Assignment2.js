@@ -1,7 +1,7 @@
 var myHeader =document.createElement('h2');
-myHeader.setAttribute(id , 'header')
+
 myHeader.textContent = "The Headliner";
-document.body.appendChild('header');
+document.body.appendChild(myHeader);
 
 myHeader.style.cssText = "font-size: 20px";
 myHeader.style.cssText = 'font-weight: lighter';
