@@ -1,6 +1,7 @@
 .border{
 border: 2px;
-border-color: solid black;
+border-color: black;
 padding: 5px;
 margin: 5px;
+border-style: solid;
 }

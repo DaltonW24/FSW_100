@@ -1,7 +1,8 @@
 
 for (var i = 0; i < 5; i++) {
 	var myHeader = document.createElement('h2');
-    myHeader.setAttribute("class", ".border");
+    myHeader.setAttribute("class", "border");
+    myHeader.classList.add('#border')
 
 
     myHeader.textContent = "The Headliner";
