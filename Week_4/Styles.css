@@ -1,0 +1,35 @@
+body{
+    padding-top: 20px;
+    background-color: antiquewhite;
+}
+.nav{
+    position: fixed;
+    font-size: x-large;
+    font-family: Georgia;
+}
+.border{
+    border: solid black 2px;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+}
+.Header{
+    color: navy;
+    padding: 20px;
+    font-size: larger;
+    font-family: Georgia;
+}
+.blogHead{
+    color: midnightblue;
+}
+.blog{
+    color: black;
+    text-align: center;    
+}
+
+.img{
+    height: 90px;
+    float: left;
+    padding: 0 20px 20px 0;
+
+}
