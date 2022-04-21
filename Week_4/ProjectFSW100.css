@@ -1,14 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
 .img{
-height: 150px;
-padding: 10px;
-margin: 20px;
-position: relative;
-float: left;
+height: 400px;
+padding: 20px;
+display: inline;
 }
+
 .Table{
-    border: solid black 2px;
+    border: solid rgb(5, 4, 4) 2px;
     padding: 5px;
+    margin: 15px;
+    font-family: georgia;
+    background-color: white;
 }
+
 .Navbar{
     position: sticky;
+    font-family: Georgia;
+    
+}
+
+.para1{
+    font-size: larger;
+    font-family: 'georgia';
+    display: inline;
+    text-align:right;
+}
+.list1{
+    font-family: 'georgia';
+}
+.border{
+    border: solid black 2px;
+    background-color: white;
+    display: inline-block;
+   
+}
+.div1{
+    float: right;
+    padding: right 25px;
 }
