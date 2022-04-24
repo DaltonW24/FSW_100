@@ -20,7 +20,7 @@ square.style.backgroundColor = "white";
     })
 
     square.addEventListener("mouseup", function(){
-        square.style.backgroundColor ="blue"
+        square.style.backgroundColor ="blue" 
     })
     
 
@@ -28,6 +28,10 @@ square.style.backgroundColor = "white";
         square.style.backgroundColor ="red"
     })
 
-    square.addEventListener('scroll', function(){
-        square.style.backgroundColor = "purple"
+    window.addEventListener("scroll", function(){
+        scrollChange();
     })
+
+    function scrollChange(){
+        square.style.backgroundColor = "purple";
+    }
