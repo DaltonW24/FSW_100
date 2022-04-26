@@ -1,201 +1,122 @@
-document.createElement('div');
-var calcHead = document.createElement('h1');
-calcHead.textContent = "The Calculator";
-document.body.appendChild(calcHead);
-calcHead.style.color = "navy";
+const header = document.createElement('h1');
+document.body.appendChild(header);
+header.textContent = "Calculator";
 
-var inputBox1 = document.createElement('input');
-inputBox1.setAttribute('class' , "Input1")
-inputBox1.style.border = "solid black 2px";
-inputBox1.style.backgroundColor ="blue"
-inputBox1.style.color = "White"
-inputBox1.valueAsNumber
+
+const div1 = document.createElement('div');
+document.body.appendChild(div1);
+div1.setAttribute('id', 'Divtag1');
+
+const inputBox1 = document.createElement('input');
 document.body.appendChild(inputBox1);
-inputBox1.style.display ="block";
-inputBox1.style.margin="20px";
+inputBox1.setAttribute('id', 'AddBox1'); 
+inputBox1.style.cssText = "margin: 20px"
+inputBox1.value = Number
 
-var inputBox2 = document.createElement('input');
-inputBox2.style.border = "solid black 2px";
-inputBox2.style.backgroundColor ="green"
-inputBox2.style.color = "White"
-inputBox2.textContent ="content2";
-inputBox2.valueAsNumber
+const inputBox2 = document.createElement('input');
 document.body.appendChild(inputBox2);
-inputBox2.style.display ="block";
-inputBox2.style.margin="20px";
-inputBox2.setAttribute('class', "Input2");
+inputBox2.setAttribute('id', 'AddBox2');
+inputBox2.style.cssText = "margin: 20px";
+inputBox2.value = Number;
 
-var addButton = document.createElement('class','button');
-addButton.textContent = "Add"
+const outputBox1 = document.createElement('output');
+document.body.appendChild(outputBox1);
+outputBox1.setAttribute('id', 'OutputBox1');
+
+const addButton = document.createElement('button');
 document.body.appendChild(addButton);
-addButton.style.marginInline = '10px';
-addButton.setAttribute("Add")
-addButton.onclick(action);
+addButton.textContent = "Add"
 
-var outputBox = document.createElement( 'class','output');
-outputBox.style.border = "solid black 2px";
-outputBox.style.backgroundColor = "White"
-outputBox.valueAsNumber
-document.body.appendChild(outputBox);
-outputBox.style.display = "block";
-outputBox.style.margin = "20px";
-outputBox.style.padding = "10px"
-outputBox.setAttribute("Output")
-outputBox.actions.valueAsNumber
+function addition(){
+    addButton.addEventListener(onclick)
+    inputBox1.value + inputBox2.value;
+}
 
-document.createElement('div');
+const div2 = document.createElement('div');
+document.body.appendChild(div2);
+div1.setAttribute('id', 'Divtag2');
 
-var inputBox1 = document.createElement('class', 'input');
-inputBox1.setAttribute('class' ,"Input1")
-inputBox1.style.border = "solid black 2px";
-inputBox1.style.backgroundColor ="blue"
-inputBox1.style.color = "White"
-inputBox1.valueAsNumber
-document.body.appendChild(inputBox1);
-inputBox1.style.display ="block";
-inputBox1.style.margin="20px";
+const inputBox3 = document.createElement('input');
+document.body.appendChild(inputBox3);
+inputBox3.setAttribute('id', 'SubBox1');
+inputBox3.style.cssText = "margin: 20px"
 
-var inputBox2 = document.createElement('class', 'input');
-inputBox2.style.border = "solid black 2px";
-inputBox2.style.backgroundColor ="green"
-inputBox2.style.color = "White"
-inputBox2.textContent ="content2";
-inputBox2.valueAsNumber
-document.body.appendChild(inputBox2);
-inputBox2.style.display ="block";
-inputBox2.style.margin="20px";
-inputBox2.setAttribute("Input2")
+const inputBox4 = document.createElement('input');
+document.body.appendChild(inputBox4);
+inputBox4.setAttribute('id', 'SubBox2');
+inputBox4.style.cssText = "margin: 20px";
 
-var subButton = document.createElement('class', 'button');
-subButton.textContent = "Subtract";
+const outputBox2 = document.createElement('output');
+document.body.appendChild(outputBox2);
+outputBox2.setAttribute('id', 'OutputBox2');
+
+
+const subButton = document.createElement('button');
 document.body.appendChild(subButton);
-subButton.style.marginInline = '10px';
-subButton.setAttribute("Subtract")
-subButton.onclick(action)
+subButton.textContent = "Subtract"
 
-var outputBox = document.createElement('class', 'output');
-outputBox.style.border = "solid black 2px";
-outputBox.style.backgroundColor = "White"
-outputBox.valueAsNumber
-document.body.appendChild(outputBox);
-outputBox.style.display = "block";
-outputBox.style.margin = "20px";
-outputBox.style.padding = "10px"
-outputBox.setAttribute("Output")
-outputBox.actions.valueAsNumber
-
-document.createElement('div')
-
-var inputBox1 = document.createElement('class', 'input');
-inputBox1.setAttribute("Input1")
-inputBox1.style.border = "solid black 2px";
-inputBox1.style.backgroundColor ="blue"
-inputBox1.style.color = "White"
-inputBox1.valueAsNumber
-document.body.appendChild(inputBox1);
-inputBox1.style.display ="block";
-inputBox1.style.margin="20px";
-
-var inputBox2 = document.createElement('class', 'input');
-inputBox2.style.border = "solid black 2px";
-inputBox2.style.backgroundColor ="green"
-inputBox2.style.color = "White"
-inputBox2.textContent ="content2";
-inputBox2.valueAsNumber
-document.body.appendChild(inputBox2);
-inputBox2.style.display ="block";
-inputBox2.style.margin="20px";
-inputBox2.setAttribute("Input2")
-
-var divButton = document.createElement("class",'button');
-divButton.textContent = "Divide";
-document.body.appendChild(divButton);
-divButton.style.marginInline = '10px';
-divButton.setAttribute("Divide")
-divButton.onclick(action)
-
-var outputBox = document.createElement('class','output');
-outputBox.style.border = "solid black 2px";
-outputBox.style.backgroundColor = "White"
-outputBox.valueAsNumber
-document.body.appendChild(outputBox);
-outputBox.style.display = "block";
-outputBox.style.margin = "20px";
-outputBox.style.padding = "10px"
-outputBox.setAttribute("Output")
-outputBox.actions.valueAsNumber
-
-document.createElement('div');
-
-var inputBox1 = document.createElement('class','input');
-inputBox1.setAttribute("Input1")
-inputBox1.style.border = "solid black 2px";
-inputBox1.style.backgroundColor ="blue"
-inputBox1.style.color = "White"
-inputBox1.valueAsNumber
-document.body.appendChild(inputBox1);
-inputBox1.style.display ="block";
-inputBox1.style.margin="20px";
-
-var inputBox2 = document.createElement('class', 'input');
-inputBox2.style.border = "solid black 2px";
-inputBox2.style.backgroundColor ="green"
-inputBox2.style.color = "White"
-inputBox2.textContent ="content2";
-inputBox2.valueAsNumber
-document.body.appendChild(inputBox2);
-inputBox2.style.display ="block";
-inputBox2.style.margin="20px";
-inputBox2.setAttribute("Input2")
-
-var multButton = document.createElement('class', 'button');
-multButton.textContent = "Multiply";
-document.body.appendChild(multButton);
-multButton.style.marginInline = '10px';
-multButton.setAttribute("Multiply")
-multButton.onclick(action);
-
-var outputBox = document.createElement('class','output');
-outputBox.style.border = "solid black 2px";
-outputBox.style.backgroundColor = "White"
-outputBox.valueAsNumber
-document.body.appendChild(outputBox);
-outputBox.style.display = "block";
-outputBox.style.margin = "20px";
-outputBox.style.padding = "10px"
-outputBox.setAttribute("Output")
-outputBox.actions.valueAsNumber
+function subtraction(){
+    subButton.addEventListener(onclick)
+    return inputBox3.valueAsNumber - inputBox4.valueAsNumber;
+}
 
 
-// var inputBox1 = document.createElement('input');
-// inputBox1.setAttribute("Input1")
-// inputBox1.style.border = "solid black 2px";
-// inputBox1.style.backgroundColor ="blue"
-// inputBox1.style.color = "White"
-// inputBox1.valueAsNumber
-// document.body.appendChild(inputBox1);
-// inputBox1.style.display ="block";
-// inputBox1.style.margin="20px";
+const div3 = document.createElement('div');
+document.body.appendChild(div3);
+div3.setAttribute('id', 'Divtag3');
 
-// var inputBox2 = document.createElement('input');
-// inputBox2.style.border = "solid black 2px";
-// inputBox2.style.backgroundColor ="green"
-// inputBox2.style.color = "White"
-// inputBox2.textContent ="content2";
-// inputBox2.valueAsNumber
-// document.body.appendChild(inputBox2);
-// inputBox2.style.display ="block";
-// inputBox2.style.margin="20px";
-// inputBox2.setAttribute("Input2")
+const inputBox5 = document.createElement('input');
+document.body.appendChild(inputBox5);
+inputBox5.setAttribute('id', 'MultBox1');
+inputBox5.style.cssText = "margin: 20px"
+
+const inputBox6 = document.createElement('input');
+document.body.appendChild(inputBox6);
+inputBox6.setAttribute('id', 'MultBox2');
+inputBox6.style.cssText = "margin: 20px";
+
+const outputBox3 = document.createElement('output');
+document.body.appendChild(outputBox3);
+outputBox3.setAttribute('id', 'OutputBox3');
 
 
+const MultButton = document.createElement('button');
+document.body.appendChild(MultButton);
+MultButton.textContent = "Multiply"
+
+function multiplication(){
+    MultButton.addEventListener(onclick)
+    return inputBox5.valueAsNumber - inputBox6.valueAsNumber;
+}
 
 
+const div4 = document.createElement('div');
+document.body.appendChild(div4);
+div4.setAttribute('id', 'Divtag4');
+
+const inputBox7 = document.createElement('input');
+document.body.appendChild(inputBox7);
+inputBox7.setAttribute('id', 'DivBox1');
+inputBox7.style.cssText = "margin: 20px"
+
+const inputBox8 = document.createElement('input');
+document.body.appendChild(inputBox8);
+inputBox8.setAttribute('id', 'DivBox2');
+inputBox8.style.cssText = "margin: 20px";
+
+const outputBox4 = document.createElement('output');
+document.body.appendChild(outputBox4);
+outputBox4.setAttribute('id', 'OutputBox4');
 
 
+const DivButton = document.createElement('button');
+document.body.appendChild(DivButton);
+DivButton.textContent = "Divide"
 
 
+function division(){
+    subButton.addEventListener(onclick)
+    return inputBox7.valueAsNumber - inputBox8.valueAsNumber;
+}
 
-
- 
 
