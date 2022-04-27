@@ -1,101 +1,80 @@
-
+.colorGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px;
+}
+.colorGrid div{
+    height: 50px;
+}
 
 .box1{
     background-color: #F5C6D6;
 
-    width: 100%;
-    display: block;
-    height: 200px;
-    margin: 10px;
 }
 .box2{
     background-color: #EE2E84;
-    width: 100%;
-    height: 50px;
-    display: grid;
-    margin:5px;
+
+
 }
 .box3{
     background-color: #EE2E84;
-    width: 100%;
-    height: 50px;
-    display:grid;
-    margin: 5px;
+
 }
 .box4{
     background-color: #EE2E84;
-    width: 100%;
-    height: 50px;
-    display: grid;
-    margin: 5px;
 }
 .box5{
     background-color:#EE2E84;
-    width: 100%;
-    height: 50px;
-    display: grid;
-    margin: 5px;
+
 }
 .box6{
     background-color:#85CFD8;
-    width: 100%;
-    height: 50px;
-    display: grid;
-    margin: 5px;
+
 }
 .box7{
     background-color:#85CFD8;
-    width: 100%;
-    height: 50px;
-    display: grid;
-    margin: 5px;
+
 }
 .box8{
     background-color:#8DC63F;
-    width: 100%;
-    height: 50px;
-    display: grid;
-    margin: 5px;
     
 }
-.box8{
-    background-color:#E76E34;
-    width: 100%;
-    height: 50px;
-    display: grid;
-    margin: 5px;
-}
 .box9{
-    background-color:#8DC63F;
-    width: 100%;
-    height: 50px;
-    display: grid;
+    background-color:#E76E34;
+
 }
+.box8{
+    background-color:#8DC63F;
 
+}
 @media screen and (min-width: 768px){
-  .box6{
-    float: left;  
-    width: calc(45% - 10px);
-    padding:10px;
-    Margin: 10px
-  }
-  .box7{
-   float:right;
-
-   padding:10px;
-   margin: 10px;
-   width: calc(45%);
-  }
-    .box2, .box3, .box4, .box5{
-        float:left; 
-        margin: 10px;
-        padding: 10px;
-        width:15%;
+    .colorGrid{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
     }
-    .box8, .box9{
-        float: left;
-        margin: 10px;
-        padding: 10px;
-        width: calc(44%);
+    .box1{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .box2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .box6{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .box7{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .box8{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .box9{
+        grid-column-start: 4;
+        grid-column-end: 5;
     }
 }
