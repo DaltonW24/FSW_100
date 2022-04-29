@@ -1,94 +1,120 @@
+
+.Grid1{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.Grid1 div{
+    height: 100px;
+}
+.Grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.Grid2 div{
+    height: 150px;
+}
+
 .box1{
     background-color:red;
-    height: 10px;
-    width: 40%;
-    display: grid;
-    padding: 10px;
-    margin: 10px;
-    float: left;
+
 }
 .box2{
     background-color: blue;
-    height: 10px;
-    display: grid;
-    padding: 10px;
-    margin: 10px;
+
 }
 .box3{
     background-color: green;
-    float: left;
-    height: 10px;
-    width: 20%;
-   padding: 10px;
-   margin: 10px;
+
 }
 .box4{
     background-color: purple;
-  
-    height: 10px;
-    width: calc(80%-40px);
-    display: grid;
-    padding: 10px;
-    margin: 10px;
+
 }
 .box5{
     background-color: yellow;
-  
-    height: 10px;
-    width: 100%;
-    display: grid;
-    padding: 10px;
-    margin: 10px;
+
 
 }
 .box6{
     background-color: red;
     
-    height: 25px;
-    width: 100%;
-    display: flex;
-    padding: 50px;
-    margin: 10px;
-}
 
+}
+ 
 .box7{
     background-color: blue;
-    padding: 20px;
-    height: 175px;
-    float: left;
-    width: 30%;
-display: grid;
-margin: 10px;
+
 }
 
 .box8{
     background-color: green;
-  
-    height: 95px;
-    width: 40%;
-    padding: 10px;
-    margin: 10px;
-    float: right ;
+
 }
 
 .box9{
     background-color: purple;
    
-    height: 50px;
-    width: 15%;
-    display: grid;
-    padding: 10px;
-    margin: 10px;
-    float: right;
 }
 
 .box10{
     background-color: purple;
-   
-    height: 50px;
-    width: 15%;
-    display: grid;
-    padding: 10px;
-    margin: 10px;
-    float: right;
+
+}
+@media screen and (min-width: 768px){
+    .Grid1{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        margin: 10px;
+    }
+    
+    .box1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .box2{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .box4{
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    .box5{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        
+    }
+
+    .Grid2{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    .box6{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .box7{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end:4 ;
+    }
+    .box8{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .box9{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .box10{
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
 }
