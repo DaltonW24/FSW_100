@@ -28,10 +28,12 @@ square.style.backgroundColor = "white";
         square.style.backgroundColor ="red"
     })
 
-    window.addEventListener("scroll", function(){
-        scrollChange();
-    })
-
-    function scrollChange(){
-        square.style.backgroundColor = "purple";
+    window.addEventListener(onscroll, (event)=>{
+            square.style.backgroundColor = "purple";
+        
     }
+    )
+
+    // function scrollChange(){
+    //     square.style.backgroundColor = "purple";
+    // }
