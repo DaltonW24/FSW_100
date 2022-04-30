@@ -1,0 +1,52 @@
+ .BoxGrid{
+     display: grid;
+     margin: 25px;
+     grid-template-columns: 1fr;
+     height: 250px;
+ }
+.Box1, .Box2, .Box3, .Box4, .Box5, .Box6{
+    height: 250px;
+    width: 250px;
+}
+.Box1{
+    background-color:yellow;
+    border: solid black 2px;
+}
+.Box1 :hover{
+    background-color: aqua;
+}
+.Box2{
+    background-color: aqua;
+    border: dashed greenyellow 2px;
+}
+.Box2 :hover{
+    border-width: 10px;
+}
+.Box3{
+    background-color: blueviolet;
+    border:solid firebrick 2px;
+}
+.Box3 :hover{
+border-style: dashed;
+}
+.Box4{
+    background-color: fuchsia;
+    border: thin salmon;
+}
+.Box4 :hover{
+    float: right;
+}
+.Box5{
+    background-color: bisque;
+    border: solid cadetblue 2px;
+}
+.Box5 :hover{
+    height: 500px;
+}
+.Box6{
+    background-color: darkblue;
+    border: solid chocolate 2px;
+}
+.Box6 :hover{
+    margin: 75px;
+}
