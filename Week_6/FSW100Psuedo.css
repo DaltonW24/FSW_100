@@ -11,42 +11,55 @@
 .Box1{
     background-color:yellow;
     border: solid black 2px;
+    transition: all 2s;
 }
-.Box1 :hover{
+.Box1:hover{
     background-color: aqua;
+    width: 500px;
 }
 .Box2{
-    background-color: aqua;
-    border: dashed greenyellow 2px;
+    background-color: yellowgreen;
+    border: dashed black 2px;
+    transition: border 2s;
 }
-.Box2 :hover{
+.Box2:hover{
     border-width: 10px;
+
 }
 .Box3{
     background-color: blueviolet;
-    border:solid firebrick 2px;
+    border:solid firebrick 10px;
+    transition: all 3s;
 }
-.Box3 :hover{
+.Box3:hover{
 border-style: dashed;
+border-color: deeppink;
+
 }
 .Box4{
     background-color: fuchsia;
-    border: thin salmon;
+    border: thin salmon; 
+    transition: all 3s;
 }
-.Box4 :hover{
-    float: right;
+.Box4:hover{
+    margin: 15px;
+    margin-top: 500px;
 }
 .Box5{
     background-color: bisque;
     border: solid cadetblue 2px;
+    transition: all 2s;
 }
-.Box5 :hover{
+.Box5:hover{
     height: 500px;
+    border-width: 25px;
 }
 .Box6{
     background-color: darkblue;
     border: solid chocolate 2px;
+    transition: all 3s;
 }
-.Box6 :hover{
+.Box6:hover{
     margin: 75px;
+    background-color: white;
 }
