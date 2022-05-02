@@ -15,4 +15,4 @@ buttonP.onclick = function(){
     document.getElementById('Input2').value = "  "
     document.getElementById('Input3').value = "  "
 }
-
+    

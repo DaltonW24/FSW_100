@@ -1,26 +1,25 @@
-function addButtonFun(){
-   document.getElementById('addButton').addEventListener(onclick, event =>{
-       getElementById('divAdd1') + getElementById('divAdd2');
-   })
-}
-function subButtonFun(){
-    document.getElementById('subButton').addEventListener(onclick, event =>{
-        getElementById('divSub1') + getElementById('divSub2');
-    })
-}
-function multButtonFun(){
-    document.getElementById('multButton').addEventListener(onclick, event =>{
-        getElementById('divMult1') + getElementById('divMult2');
-    })
-}
-function divideButtonFun(){
-    document.getElementById('divButton').addEventListener(onclick, event =>{
-        getElementById('divDivide1') + getElementById('divDivide2');
-    })
-    
-}
 
-Head1.style.cssText = 'color:red'
+
+
+document.getElementById('addButton').addEventListener('click', event =>{
+    let answer =  document.getElementById('divAdd1').value + document.getElementById('divAdd2').value;
+        document.getElementById('divAnswerAdd').value = answer;
+})
+
+
+   
+
+// document.getElementById('subButton').addEventListener(onclick, event =>{
+   
+
+
+// document.getElementById('multButton').addEventListener(onclick, event =>{
+    
+
+// document.getElementById('divButton').addEventListener(onclick, event =>{
+
+
+// Head1.style.cssText = 'color:red'
 
 divAdd.style.cssText = 'margin: 10px'
 divAdd1.style.cssText = 'background-color: yellow'

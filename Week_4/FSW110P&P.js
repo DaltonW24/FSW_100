@@ -25,15 +25,9 @@ square.style.backgroundColor = "white";
     
 
     square.addEventListener('dblclick', function(){
-        square.style.backgroundColor ="red"
+        square.style.backgroundColor ="red" 
     })
 
-    window.addEventListener(onscroll, (event)=>{
+    window.addEventListener('wheel', function(){
             square.style.backgroundColor = "purple";
-        
-    }
-    )
-
-    // function scrollChange(){
-    //     square.style.backgroundColor = "purple";
-    // }
+    })
