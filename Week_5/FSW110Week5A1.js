@@ -10,7 +10,7 @@ buttonP.textContent = "Proceed"
 buttonP.style.cssText = "margin:10px"
 
 buttonP.onclick = function(){
-    alert(Box1.value + Box2.value + Box3.value);
+    alert(document.getElementById('Input1').value + ' ' + document.getElementById('Input2').value + ' ' + document.getElementById('Input3').value);
     document.getElementById('Input1').value = "  "
     document.getElementById('Input2').value = "  "
     document.getElementById('Input3').value = "  "

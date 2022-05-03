@@ -2,9 +2,25 @@
 
 
 document.getElementById('addButton').addEventListener('click', event =>{
-    let answer =  document.getElementById('divAdd1').value + document.getElementById('divAdd2').value;
-        document.getElementById('divAnswerAdd').value = answer;
+    let answerAdd =  document.getElementById('divAdd1').value + document.getElementById('divAdd2').value;
+        document.getElementById('divAnswerAdd').value = answerAdd;
 })
+
+document.getElementById('subtractButton').addEventListener('click', event =>{
+    let answersub = document.getElementById('SubBox1').value - document.getElementById('SubBox2').value;
+        document.getElementById('divAnswerSub').value = answersub;
+})
+ 
+document.getElementById('multiplyButton').addEventListener('click', event =>{
+    let answerMult = document.getElementById('multBox1').value * document.getElementById('multBox2').value;
+        document.getElementById('divAnswerMul').value = answerMult;
+})
+
+document.getElementById('divideButton').addEventListener('click', event =>{
+    let answerDivide = document.getElementById('divideBox1').value / document.getElementById('divideBox2').value;
+        document.getElementById('divAnswerDivide').value = answerDivide;
+})
+
 
 
    
