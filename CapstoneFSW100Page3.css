@@ -1,0 +1,59 @@
+.Body{
+    grid-template-columns: 4;
+    font-family: Georgia;
+}
+.NavLinks{
+    background-color: navy;
+    display: flex;
+    font-size: Larger;
+    padding: 10px;
+}
+.Home{
+    color: ghostwhite;
+    padding: 15px;
+    text-decoration: none;
+}
+.Home:hover{
+    color: yellow;
+    text-decoration: underline;
+    transition: all 1s;
+}
+.ProVCon{
+    color: ghostwhite;
+    padding: 15px;
+    text-decoration: none;
+}
+.ProVCon:hover{
+    color: yellow;
+    text-decoration: underline;
+    transition: all 1s;
+}
+.Contact{
+    color: ghostwhite;
+    padding: 15px;
+    text-decoration: none;
+}
+.Contact:hover{
+    color: yellow;
+    text-decoration: underline;
+    transition: all 1s;
+}
+.Header{
+    text-align: center;
+    border: solid navy 10px;
+    display: block;
+    margin: 15px;
+}
+.Main{
+    border: solid navy 10px;
+    font-size: larger;
+    font-style: bold;
+}
+.HeaderCont{
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+.Body{
+    grid-template-columns: repeat(4, 1fr);
+}
+}

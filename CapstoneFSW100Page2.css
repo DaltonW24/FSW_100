@@ -1,0 +1,62 @@
+.Nav {
+    height: 50px;
+    background-color: navy;
+    font-size: larger;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.Nav1{
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 15px;
+}
+.Nav2{
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 15px;
+}
+.Nav3{
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 15px;
+    
+}
+.Nav1:hover{
+    color: yellow;
+    text-decoration: underline;
+    transition: all 1s;
+}
+.Nav2:hover{
+    color: yellow;
+    text-decoration: underline;
+    transition: all 1s;
+}
+.Nav3:hover{
+    color: yellow;
+    text-decoration: underline;
+    transition: all 1s;
+}
+.Table{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border: solid navy 10px;
+}
+.TheImage{
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    padding: 10px;
+
+}
+.BreakWithTitle{
+    background-color: white;
+    border: solid navy 10px;
+    padding: 5px;
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+
+}

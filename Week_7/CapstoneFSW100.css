@@ -1,0 +1,90 @@
+body{
+font-family: Georgia;
+}
+.Header{
+    text-align: center;
+}
+.Nav {
+    height: 50px;
+    background-color: navy;
+    font-size: larger;
+    display: flex
+}
+.Nav1{
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 15px;
+}
+.Nav2{
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 15px;
+}
+.Nav3{
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 15px;
+    
+}
+.Nav1:hover{
+    color: yellow;
+    text-decoration: underline;
+    transition: all 1s;
+}
+.Nav2:hover{
+    color: yellow;
+    text-decoration: underline;
+    transition: all 1s;
+}
+.Nav3:hover{
+    color: yellow;
+    text-decoration: underline;
+    transition: all 1s;
+}
+.Box{
+    background-color: White;
+    color: black;
+    padding: 15px;
+    margin: 15px;
+    border: solid navy 10px;
+}
+.Box2{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 15px;
+    border: solid navy 10px;
+}
+.Table{
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border: solid white 2px;
+}
+.Image{
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    border: solid navy 6px;
+}
+.Header{
+    border: solid navy 10px;
+    padding: 10px;
+    margin: 15px;
+}
+@media screen and (min-width: 768px){
+    .Main{
+        display: grid;
+        grid-template-columns: 4fr;
+    }
+    .TitleHeader{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .Image{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
