@@ -1,14 +1,16 @@
-body{
+.Body{
 font-family: Georgia;
+display: grid ;
+grid-template-columns: 1fr;
 }
 .Header{
     text-align: center;
 }
-.Nav {
+.Navi {
     height: 50px;
     background-color: navy;
     font-size: larger;
-    display: flex
+    display: inline-flex
 }
 .Nav1{
     text-decoration: none;
@@ -67,7 +69,7 @@ font-family: Georgia;
     width: 250px;
     padding: 15px;
     margin: 15px;
-    border: solid navy 6px;
+    border: solid navy 10px;
 }
 .Header{
     border: solid navy 10px;
@@ -75,16 +77,55 @@ font-family: Georgia;
     margin: 15px;
 }
 @media screen and (min-width: 768px){
-    .Main{
+    .Body{
         display: grid;
-        grid-template-columns: 4fr;
+        grid-template-columns: repeat(3, 1fr);
     }
-    .TitleHeader{
-        grid-column-start: 2;
-        grid-column-end: 3;
+    .Navi{
+        grid-column-start: 1; 
+        grid-column-end: 4;
+    }
+    .Header{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .Main{
+   grid-column-start:2 ;
+   grid-column-end: 4;
     }
     .Image{
+        grid-column-start: 1; 
+        grid-column-end: 2;   
+    }
+    .Box2{
         grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+@media screen and (min-width: 1200px){
+    .Body{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 3fr;
+    }
+    .Navi{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .Header{
+        grid-column-start:1 ;
+        grid-column-end: 6;
+    }
+    .Main{
+        grid-column-start:2 ;
+        grid-column-end: 5;
+    }
+    .Image{
+        grid-column-start:1 ;
         grid-column-end: 2;
+    }
+    .Box2{
+        grid-column-start: 5;
+        grid-column-end: 6;
     }
 }
