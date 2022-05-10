@@ -16,7 +16,7 @@
 text-decoration: none;
 background-color: black;
 padding: 10px;
-}
+} 
 .Navbar :hover{
   color: cornflowerblue;
   text-decoration: none;
@@ -55,6 +55,10 @@ padding: 10px;
 
 
 @media screen and (Max-width: 768px){
+    .Navbar{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
     .body{
         display: grid;
         grid-template-columns: repeat(3, 1fr);        
@@ -65,18 +69,22 @@ padding: 10px;
         
     }
     .Main{
-        grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
     }
     .Aside1{
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 3;
         margin: 15px;
     }
     .Aside2{
         grid-column-start: 3;
         grid-column-end: 4;
         margin: 15px;
+    }
+    .Footer{
+        grid-column-start: 1;
+        grid-column-end: 4;
     }
 }
 @media screen and (min-width: 1366px){
@@ -85,23 +93,32 @@ padding: 10px;
         grid-template-columns: repeat(5, 1fr);
         
     }
-    .Header{
-        grid-column-start:1;
+    .Navbar{
+        grid-column-start: 1;
         grid-column-end: 6;
+    }
+    .Header{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        align-content: center;
         
     }
     .Aside1{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        margin: 15px;
-    }
-    .Main{
-        grid-column-start: 3;
-        grid-column-end: 4;
-    }
-    .Aside2{
         grid-column-start: 4;
         grid-column-end: 6;
         margin: 15px;
+        padding: 15px;
+    }
+    .Main{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .Aside2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .Footer{
+        grid-column-start: 1;
+        grid-column-end: 6;
     }
 }
