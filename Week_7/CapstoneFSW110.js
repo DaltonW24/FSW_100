@@ -4,4 +4,4 @@ function proceedForm(){
         document.getElementById('ListItem2').value = document.getElementById('Date'); 
     })
 }
-proceedForm();
+proceedForm(); 
